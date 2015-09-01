@@ -1,0 +1,22 @@
+
+git init
+./gitonfiglorenzo
+git add .
+git commit
+git remote add origin https://github.com/lorenzoalbanof/02807-exercise1-assignment1
+
+#hint: Updates were rejected because the tip of your current branch is behind
+#hint: its remote counterpart. Integrate the remote changes (e.g.
+#hint: 'git pull ...') before pushing again.
+#hint: See the 'Note about fast-forwards' in 'git push --help' for details
+#to merge the master branch in remote repository and the master branch in local hard disk
+git pull https://github.com/lorenzoalbanof/02807-exercise1-assignment1/ master
+
+#lastly
+git push
+
+
+#Folder:/home/lorenzo/02807/Exercise1Assignment1Course02807
+#URL (open to the world): https://github.com/lorenzoalbanof/02807-exercise1-assignment1
+#username: lorenzoalbanof
+#password: won't tell here
