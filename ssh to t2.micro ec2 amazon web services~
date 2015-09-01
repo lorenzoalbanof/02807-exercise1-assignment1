@@ -2,3 +2,4 @@ SSH Command: ssh -i "../exercise1.pem" ubuntu@52.88.26.71
 Public IP: 52.88.26.71
 Instance ID: i-7fa4ddba
 Public DNS: ec2-52-88-26-71.us-west-2.compute.amazonaws.com
+Launched on: September 1, 2015 at 4:52:05 PM UTC+2
