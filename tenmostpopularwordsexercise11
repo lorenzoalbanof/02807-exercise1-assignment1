@@ -1,0 +1,12 @@
+#! /bin/bash
+cat $1 | tr '[:punct:],[:blank:]' '\n'|tr '[:upper:]' '[:lower:]'|grep -v '^$'|sort| uniq -c| sort -n -r>mostpopularwordsdictionary.txt
+head -n 10 mostpopularwordsdictionary.txt
+
+# Argument $1 is the name of the file to be searched, it is printed by cat and piped
+#tr is used twice, tr '[:punct:],[:blank:]' '\n' to substitute all punctuation signs [:punct:] and blank space [:blank:] with carriage returns
+#tr '[:upper:]' '[:lower:]' substitutes all upper case letters [:upper] with lower case letters [:lower:]
+#sort sorts the result alphabetically as for a dictionary of unique words in the file filedictionary.txt. Useful for later
+#uniq -c prints out all unique words and gives them, preceded by their frequency in the file
+#sort -n -r the reported numbered lines numerically in reverse order
+#head -n 10 reports the first ten lines of the result
+

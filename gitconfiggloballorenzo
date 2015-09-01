@@ -1,0 +1,4 @@
+git config --global user.name "Lorenzo Albano"
+git config --global user.email "s151429@student.dtu.dk"
+git config --global color.ui "auto"
+git config --global core.editor "gedit"

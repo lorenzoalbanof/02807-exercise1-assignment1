@@ -1,0 +1,5 @@
+#! /bin/bash
+grep -v '[0-9][0-9][0-9][0-9][0-9]' $1>cheapcars.txt
+
+# take away any line where you find five or more digits >10000 price. Doesn't discriminate anything else. $1 is the file
+#awk should do it more elegantly, for example grab the prices and eliminate car prices >15000 by doing actual numerical comparison
