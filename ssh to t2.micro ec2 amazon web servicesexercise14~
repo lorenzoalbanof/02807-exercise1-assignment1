@@ -9,4 +9,6 @@ Security groups: launch-wizard-1
 
 git pull https://github.com/lorenzoalbanof/02807-exercise1-assignment1/ master
 
-#appended #'Kilroy was here' to 
+#Added #Kilroy was here to some files
+
+git pushed

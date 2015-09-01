@@ -9,4 +9,6 @@ Security groups: launch-wizard-1
 
 git pull https://github.com/lorenzoalbanof/02807-exercise1-assignment1/ master
 
-#created a kilroy file with obvious content
+#Added #Kilroy was here to some files
+
+git push
