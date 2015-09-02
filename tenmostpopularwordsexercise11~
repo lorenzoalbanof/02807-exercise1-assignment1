@@ -9,5 +9,5 @@ head -n 10 $2
 #uniq -c prints out all unique words and gives them, preceded by their frequency in the file
 #sort -n -r the reported numbered lines numerically in reverse order
 #head -n 10 reports the first ten lines of the result
-#usage: ./tenmostpopularwordsexercise11 <input file name> <dictionary file name>
+#usage: tenmostpopularwordsexercise11 <input file name> <dictionary file name>
 
