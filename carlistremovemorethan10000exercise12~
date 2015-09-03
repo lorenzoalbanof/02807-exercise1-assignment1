@@ -1,6 +1,0 @@
-#! /bin/bash
-awk '{ if($5 <= 10000) print $0;}' $1>$2
-#used awk take as input file name argument $1 (cars.txt) and if the 5th. column, price is less or equal than 10000 print the line, else don't
-# the result is saved in argument $2 a file name
-#usage: carlistremovemorethan10000exercise12 <car models and prices file name> <car models and prices less than 10000 file name>
-
